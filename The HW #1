@@ -1,0 +1,14 @@
+correct_number = 16
+print("I'm thinking of a number between 1 and 20 guess it.")
+guess_number = int(input())
+while guess_number != correct_number:
+    if guess_number < correct_number:
+        print("too low try again.")
+    else:
+        print("Too high try again")
+    guess_number = int(input())
+print("Congrats You got it :) WHOOP WHOOP GO YOU!")
+#i tried to understand how to end the lopp after 6 guesses but I did not undetrsstand how to do it, or how to combine it
+#into the code above. I get the adding one thing in the class session but I dont know how to use it with other code or 
+#why we use it. But in actaully pretty proud I did this all my myself and then went to look at the class vid. to see the 
+#add one thing
